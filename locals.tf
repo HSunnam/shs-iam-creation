@@ -1,4 +1,4 @@
 locals {
   iam_user = "SatyaSunnam"
-  policy_name = "Admin Policy"
+  policy_name = "Admin-Policy"
 }

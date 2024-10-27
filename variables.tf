@@ -6,10 +6,20 @@ variable "password_length" {
 
 variable "force_destroy" {
   type = bool
-  default = false
+  default = true
 }
 
 variable "password_reset_required" {
     type = bool
     default = false
+}
+
+variable "create_iam_user_login_profile" {
+    type = bool
+    default = true
+}
+
+variable "create_iam_access_key" {
+    type = bool
+    default = true
 }
